@@ -3,10 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Opela | Indian Decor Store</title>
   <meta name="description" content="Explore elegant candles and gifting collections at Opela.">
-
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -35,22 +33,16 @@
 
   <main>
 
-    <!-- HOME SECTION -->
+    <!-- HOME -->
     <section class="hero" id="home">
       <p class="eyebrow">HAND-PICKED CANDLE COLLECTIONS</p>
-
       <h2>Make every corner<br><em>feel special.</em></h2>
-
-      <p>
-        Thoughtful candles and little gifts to brighten your home and your moments.
-      </p>
-
+      <p>Thoughtful candles and little gifts to brighten your home and your moments.</p>
       <a class="button" href="#shop">Explore collection</a>
     </section>
 
-    <!-- PRODUCTS SECTION -->
+    <!-- PRODUCTS -->
     <section class="shop-section" id="shop">
-
       <div class="section-heading">
         <div>
           <p class="eyebrow">THE COLLECTION</p>
@@ -72,12 +64,10 @@
       </div>
 
       <div id="product-grid" class="product-grid"></div>
-
     </section>
 
-    <!-- CART SECTION -->
+    <!-- CART -->
     <section id="cart" class="cart-section">
-
       <div class="section-heading">
         <div>
           <p class="eyebrow">YOUR SELECTION</p>
@@ -86,20 +76,25 @@
       </div>
 
       <div id="cart-items">
-        <p class="empty-cart">
-          Your cart is empty. Add a candle you love.
-        </p>
+        <p class="empty-cart">Your cart is empty. Add a candle you love.</p>
       </div>
 
-      <!-- PRODUCT SUBTOTAL -->
+      <!-- SUBTOTAL -->
       <div class="cart-total">
         <span>Subtotal (Product Price)</span>
         <strong id="cart-subtotal">₹0</strong>
       </div>
 
-      <!-- FIXED DELIVERY FEE -->
+      <!-- DELIVERY FEE BUTTON -->
       <div class="cart-total">
-        <span>Delivery Fee</span>
+        <button
+          type="button"
+          class="button"
+          id="delivery-fee-button"
+        >
+          🚚 Delivery Fee ₹100
+        </button>
+
         <strong id="delivery-fee">₹0</strong>
       </div>
 
@@ -109,20 +104,14 @@
         <strong id="cart-total">₹0</strong>
       </div>
 
-      <!-- ORDER FORM -->
+      <!-- DELIVERY DETAILS -->
       <form id="order-form" class="order-form">
-
         <h3>Delivery details</h3>
 
         <div class="form-grid">
-
           <label>
             Full name
-            <input
-              id="customer-name"
-              required
-              placeholder="Your name"
-            >
+            <input id="customer-name" required placeholder="Your name">
           </label>
 
           <label>
@@ -134,7 +123,6 @@
               placeholder="Your phone number"
             >
           </label>
-
         </div>
 
         <label>
@@ -158,9 +146,7 @@
 
         <div class="delivery-note">
           <strong>🚚 Fixed Delivery Fee: ₹100</strong>
-          <p>
-            A delivery charge of ₹100 will be added to your product total.
-          </p>
+          <p>A delivery charge of ₹100 will be added to your product total.</p>
         </div>
 
         <button class="button button-full" type="submit">
@@ -168,19 +154,15 @@
         </button>
 
         <p class="form-note">
-          Your order will open in WhatsApp. Please check the product prices,
+          Your order will open in WhatsApp. Check the product prices,
           delivery fee, and final amount before confirming your order.
         </p>
-
       </form>
-
     </section>
 
-    <!-- ABOUT US SECTION -->
+    <!-- ABOUT US -->
     <section class="about-section" id="about">
-
       <p class="eyebrow">A LITTLE ABOUT US</p>
-
       <h2>Small details. Special feelings.</h2>
 
       <p class="about-lead">
@@ -209,14 +191,11 @@
       <strong class="about-signoff">
         OPELA — A Little Beauty, A Lot of Happiness!
       </strong>
-
     </section>
 
-    <!-- CONTACT US SECTION -->
+    <!-- CONTACT US -->
     <section class="contact-section" id="contact">
-
       <p class="eyebrow">GET IN TOUCH</p>
-
       <h2>We’d love to hear from you</h2>
 
       <p>
@@ -234,9 +213,8 @@
       </a>
 
       <p class="contact-small">
-        The delivery fee is ₹100 and is included in the final order total.
+        Delivery fee is ₹100 and will be included in the final order total.
       </p>
-
     </section>
 
   </main>
