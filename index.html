@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opela | Indian Decor Store</title>
+  <meta name="description" content="Explore elegant candles and gifting collections at Opela.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-mark">O</div>
+    <div class="brand-copy"><p class="eyebrow">WHERE BEAUTY BECOMES A FEELING</p><h1>OPELA</h1><p class="tagline">GIFTING • CANDLE COLLECTIONS</p></div>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact Us</a>
+      <a class="nav-order" href="#shop">Order Now</a>
+    </nav>
+    <a class="cart-pill" href="#cart">Cart <span id="cart-count">0</span></a>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <p class="eyebrow">HAND-PICKED CANDLE COLLECTIONS</p>
+      <h2>Make every corner<br><em>feel special.</em></h2>
+      <p>Thoughtful candles and little gifts to brighten your home and your moments.</p>
+      <a class="button" href="#shop">Explore collection</a>
+    </section>
+    <section class="shop-section" id="shop">
+      <div class="section-heading"><div><p class="eyebrow">THE COLLECTION</p><h2>Find your glow</h2></div>
+        <input id="search" type="search" placeholder="Search candles..." aria-label="Search products">
+      </div>
+      <div class="filters" aria-label="Product filters">
+        <button class="filter active" data-filter="all">All products</button>
+        <button class="filter" data-filter="candle">Candles</button>
+        <button class="filter" data-filter="gift">Gifting</button>
+      </div>
+      <div id="product-grid" class="product-grid"></div>
+    </section>
+    <section id="cart" class="cart-section">
+      <div class="section-heading"><div><p class="eyebrow">YOUR SELECTION</p><h2>Your cart</h2></div></div>
+      <div id="cart-items"><p class="empty-cart">Your cart is empty. Add a candle you love.</p></div>
+      <div class="cart-total"><span>Total</span><strong id="cart-total">₹0</strong></div>
+      <form id="order-form" class="order-form">
+        <h3>Delivery details</h3>
+        <div class="form-grid">
+          <label>Full name<input id="customer-name" required placeholder="Your name"></label>
+          <label>Phone number<input id="customer-phone" required type="tel" placeholder="Your phone number"></label>
+        </div>
+        <label>Delivery address<textarea id="customer-address" required rows="3" placeholder="House number, street, city, PIN code"></textarea></label>
+        <label>Payment method<select id="payment-method" required><option value="Cash on Delivery (COD)">Cash on Delivery (COD)</option></select></label>
+        <div class="delivery-note"><strong>Delivery fee:</strong> The store owner will confirm the delivery fee after checking your address. It is not included in the product total shown above.</div>
+        <button class="button button-full" type="submit">Place Order on WhatsApp</button>
+        <p class="form-note">Your order will open in WhatsApp. The owner will confirm your order, delivery fee, and final payable amount.</p>
+      </form>
+    </section>
+    <section class="about-section" id="about"><p class="eyebrow">A LITTLE ABOUT US</p><h2>Small details. Special feelings.</h2><p class="about-lead">Welcome to OPELA — where beauty meets creativity.</p><p>We believe that little details can make a house feel like home. Our decorative candles and thoughtful gifting pieces are selected to bring warmth, elegance, and happiness to everyday life.</p><p>Whether you are refreshing your space, celebrating a special occasion, or choosing a gift for someone you love, we hope OPELA helps you make every moment feel a little more special.</p><div class="promise-grid"><div>✦ Beautiful finds</div><div>🕯️ Elegant candles</div><div>🎁 Thoughtful gifting</div><div>♥ Made for special moments</div></div><strong class="about-signoff">OPELA — A Little Beauty, A Lot of Happiness!</strong></section>
+    <section class="contact-section" id="contact"><p class="eyebrow">GET IN TOUCH</p><h2>We’d love to hear from you</h2><p>Have a question about a candle, a gift, or your order? Contact us and we’ll help you with the details.</p><a class="text-link" href="https://wa.me/918527270809" target="_blank" rel="noopener">WhatsApp / Contact: +91 85272 70809</a><p class="contact-small">Delivery fee and final payable amount will be confirmed by the store owner.</p></section>
+  </main>
+  <footer><span>OPELA</span><span>Gifting • Candle Collections</span><span>© <span id="year"></span> Opela</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
