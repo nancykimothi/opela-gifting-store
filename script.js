@@ -3,343 +3,343 @@ const PRODUCTS = [
     "name": "Love Hearts Candle",
     "price": 299,
     "old_price": 249,
-    "image": "images/love-hearts-candle-p01-1.jpg",
+    "image": "love-hearts-candle-p01-1.jpg",
     "size": ""
   },
   {
     "name": "Sculpted Elegance Pillar Candle",
     "price": 299,
     "old_price": 249,
-    "image": "images/sculpted-elegance-pillar-candle-p01-2.jpg",
+    "image": "sculpted-elegance-pillar-candle-p01-2.jpg",
     "size": ""
   },
   {
     "name": "Tulip Royale Candle",
     "price": 349,
     "old_price": 299,
-    "image": "images/tulip-royale-candle-p02-1.jpg",
+    "image": "tulip-royale-candle-p02-1.jpg",
     "size": ""
   },
   {
     "name": "Tulip Royale Candle",
     "price": 349,
     "old_price": 299,
-    "image": "images/tulip-royale-candle-p02-2.jpg",
+    "image": "tulip-royale-candle-p02-2.jpg",
     "size": ""
   },
   {
     "name": "Heritage Carved Pillar Candle",
     "price": 349,
     "old_price": 299,
-    "image": "images/heritage-carved-pillar-candle-p03-1.jpg",
+    "image": "heritage-carved-pillar-candle-p03-1.jpg",
     "size": ""
   },
   {
     "name": "Floral Egg Candle",
     "price": 199,
     "old_price": 149,
-    "image": "images/floral-egg-candle-p03-2.jpg",
+    "image": "floral-egg-candle-p03-2.jpg",
     "size": ""
   },
   {
     "name": "Floral Egg Candle",
     "price": 199,
     "old_price": 149,
-    "image": "images/floral-egg-candle-p04-1.jpg",
+    "image": "floral-egg-candle-p04-1.jpg",
     "size": ""
   },
   {
     "name": "Floral Fusion Cube Candle",
     "price": 349,
     "old_price": 299,
-    "image": "images/floral-fusion-cube-candle-p04-2.jpg",
+    "image": "floral-fusion-cube-candle-p04-2.jpg",
     "size": ""
   },
   {
     "name": "2.5 Inch",
     "price": 129,
     "old_price": 79,
-    "image": "images/2-5-inch-p05-1.jpg",
+    "image": "2-5-inch-p05-1.jpg",
     "size": ""
   },
   {
     "name": "2.5 Inch",
     "price": 199,
     "old_price": 149,
-    "image": "images/2-5-inch-p05-2.jpg",
+    "image": "2-5-inch-p05-2.jpg",
     "size": ""
   },
   {
     "name": "2.5 Inch",
     "price": 199,
     "old_price": 149,
-    "image": "images/2-5-inch-p06-1.jpg",
+    "image": "2-5-inch-p06-1.jpg",
     "size": ""
   },
   {
     "name": "2.5 Inch",
     "price": 199,
     "old_price": 149,
-    "image": "images/2-5-inch-p06-2.jpg",
+    "image": "2-5-inch-p06-2.jpg",
     "size": ""
   },
   {
     "name": "Twisted Elegance Taper Candles",
     "price": 199,
     "old_price": 149,
-    "image": "images/twisted-elegance-taper-candles-p07-1.jpg",
+    "image": "twisted-elegance-taper-candles-p07-1.jpg",
     "size": ""
   },
   {
     "name": "Forever Tulips Candle",
     "price": 249,
     "old_price": 199,
-    "image": "images/forever-tulips-candle-p07-2.jpg",
+    "image": "forever-tulips-candle-p07-2.jpg",
     "size": ""
   },
   {
     "name": "Royal Peony Candle",
     "price": 249,
     "old_price": 199,
-    "image": "images/royal-peony-candle-p08-1.jpg",
+    "image": "royal-peony-candle-p08-1.jpg",
     "size": ""
   },
   {
     "name": "Lotus Aura Candle",
     "price": 249,
     "old_price": 199,
-    "image": "images/lotus-aura-candle-p08-2.jpg",
+    "image": "lotus-aura-candle-p08-2.jpg",
     "size": ""
   },
   {
     "name": "Lotus Aura Candle",
     "price": 269,
     "old_price": 219,
-    "image": "images/lotus-aura-candle-p09-1.jpg",
+    "image": "lotus-aura-candle-p09-1.jpg",
     "size": ""
   },
   {
     "name": "Sweet candle 6 set",
     "price": 199,
     "old_price": 149,
-    "image": "images/sweet-candle-6-set-p09-2.jpg",
+    "image": "sweet-candle-6-set-p09-2.jpg",
     "size": ""
   },
   {
     "name": "Handmade Wax Sachets",
     "price": 249,
     "old_price": 199,
-    "image": "images/handmade-wax-sachets-p10-1.jpg",
+    "image": "handmade-wax-sachets-p10-1.jpg",
     "size": ""
   },
   {
     "name": "Daisy flower candle",
     "price": 199,
     "old_price": 149,
-    "image": "images/daisy-flower-candle-p10-2.jpg",
+    "image": "daisy-flower-candle-p10-2.jpg",
     "size": ""
   },
   {
     "name": "2.5 Inch",
     "price": 249,
     "old_price": 199,
-    "image": "images/2-5-inch-p11-1.jpg",
+    "image": "2-5-inch-p11-1.jpg",
     "size": ""
   },
   {
     "name": "2.5 Inch",
     "price": 199,
     "old_price": 149,
-    "image": "images/2-5-inch-p11-2.jpg",
+    "image": "2-5-inch-p11-2.jpg",
     "size": ""
   },
   {
     "name": "4.5 Inch",
     "price": 599,
     "old_price": 599,
-    "image": "images/4-5-inch-p12-1.jpg",
+    "image": "4-5-inch-p12-1.jpg",
     "size": ""
   },
   {
     "name": "Botanical Harmony Candle",
     "price": 699,
     "old_price": 699,
-    "image": "images/botanical-harmony-candle-p12-2.jpg",
+    "image": "botanical-harmony-candle-p12-2.jpg",
     "size": ""
   },
   {
     "name": "Spiced Serenity Candle",
     "price": 699,
     "old_price": 699,
-    "image": "images/spiced-serenity-candle-p13-1.jpg",
+    "image": "spiced-serenity-candle-p13-1.jpg",
     "size": ""
   },
   {
     "name": "Chai Biscuit Candle",
     "price": 169,
     "old_price": 119,
-    "image": "images/chai-biscuit-candle-p13-2.jpg",
+    "image": "chai-biscuit-candle-p13-2.jpg",
     "size": ""
   },
   {
     "name": "Crystal Ember Bowl",
     "price": 349,
     "old_price": 299,
-    "image": "images/crystal-ember-bowl-p14-1.jpg",
+    "image": "crystal-ember-bowl-p14-1.jpg",
     "size": ""
   },
   {
     "name": "Crystal Luxe Candle",
     "price": 449,
     "old_price": 399,
-    "image": "images/crystal-luxe-candle-p14-2.jpg",
+    "image": "crystal-luxe-candle-p14-2.jpg",
     "size": ""
   },
   {
     "name": "Enchanted Bloom jar candle",
     "price": 599,
     "old_price": 599,
-    "image": "images/enchanted-bloom-jar-candle-p15-1.jpg",
+    "image": "enchanted-bloom-jar-candle-p15-1.jpg",
     "size": ""
   },
   {
     "name": "Eternal Love Heart Candle",
     "price": 349,
     "old_price": 299,
-    "image": "images/eternal-love-heart-candle-p15-2.jpg",
+    "image": "eternal-love-heart-candle-p15-2.jpg",
     "size": ""
   },
   {
     "name": "Gilded Sparkle Candle",
     "price": 599,
     "old_price": 599,
-    "image": "images/gilded-sparkle-candle-p16-1.jpg",
+    "image": "gilded-sparkle-candle-p16-1.jpg",
     "size": ""
   },
   {
     "name": "Golden Leaf Radiance",
     "price": 449,
     "old_price": 399,
-    "image": "images/golden-leaf-radiance-p16-2.jpg",
+    "image": "golden-leaf-radiance-p16-2.jpg",
     "size": ""
   },
   {
     "name": "Golden Lotus Glow",
     "price": 499,
     "old_price": 499,
-    "image": "images/golden-lotus-glow-p17-1.jpg",
+    "image": "golden-lotus-glow-p17-1.jpg",
     "size": ""
   },
   {
     "name": "Halo Glow Tealight Candle",
     "price": 170,
     "old_price": 120,
-    "image": "images/halo-glow-tealight-candle-p17-2.jpg",
+    "image": "halo-glow-tealight-candle-p17-2.jpg",
     "size": ""
   },
   {
     "name": "Honey Drip Candle",
     "price": 299,
     "old_price": 249,
-    "image": "images/honey-drip-candle-p18-1.jpg",
+    "image": "honey-drip-candle-p18-1.jpg",
     "size": ""
   },
   {
     "name": "Layered crystal gel candles",
     "price": 449,
     "old_price": 399,
-    "image": "images/layered-crystal-gel-candles-p18-2.jpg",
+    "image": "layered-crystal-gel-candles-p18-2.jpg",
     "size": ""
   },
   {
     "name": "Floral Elegance Jar Candle",
     "price": 499,
     "old_price": 499,
-    "image": "images/floral-elegance-jar-candle-p19-1.jpg",
+    "image": "floral-elegance-jar-candle-p19-1.jpg",
     "size": ""
   },
   {
     "name": "Midnight Bloom Candle",
     "price": 499,
     "old_price": 499,
-    "image": "images/midnight-bloom-candle-p19-2.jpg",
+    "image": "midnight-bloom-candle-p19-2.jpg",
     "size": ""
   },
   {
     "name": "Noir Royale Candle",
     "price": 249,
     "old_price": 199,
-    "image": "images/noir-royale-candle-p20-1.jpg",
+    "image": "noir-royale-candle-p20-1.jpg",
     "size": ""
   },
   {
     "name": "Ocean Pearl Candle",
     "price": 499,
     "old_price": 499,
-    "image": "images/ocean-pearl-candle-p20-2.jpg",
+    "image": "ocean-pearl-candle-p20-2.jpg",
     "size": ""
   },
   {
     "name": "Pearl Shell Candle",
     "price": 399,
     "old_price": 349,
-    "image": "images/pearl-shell-candle-p21-1.jpg",
+    "image": "pearl-shell-candle-p21-1.jpg",
     "size": ""
   },
   {
     "name": "Rose Bloom Candle",
     "price": 349,
     "old_price": 299,
-    "image": "images/rose-bloom-candle-p21-2.jpg",
+    "image": "rose-bloom-candle-p21-2.jpg",
     "size": ""
   },
   {
     "name": "Royal Aura Jar Candle",
     "price": 449,
     "old_price": 399,
-    "image": "images/royal-aura-jar-candle-p22-1.jpg",
+    "image": "royal-aura-jar-candle-p22-1.jpg",
     "size": ""
   },
   {
     "name": "Mandala Bloom Candle",
     "price": 299,
     "old_price": 249,
-    "image": "images/mandala-bloom-candle-p22-2.jpg",
+    "image": "mandala-bloom-candle-p22-2.jpg",
     "size": ""
   },
   {
     "name": "Sankh candle",
     "price": 599,
     "old_price": 599,
-    "image": "images/sankh-candle-p23-1.jpg",
+    "image": "sankh-candle-p23-1.jpg",
     "size": ""
   },
   {
     "name": "Teddy Love Candle",
     "price": 299,
     "old_price": 249,
-    "image": "images/teddy-love-candle-p23-2.jpg",
+    "image": "teddy-love-candle-p23-2.jpg",
     "size": ""
   },
   {
     "name": "Trinity Glow Candle Stand",
     "price": 249,
     "old_price": 199,
-    "image": "images/trinity-glow-candle-stand-p24-1.jpg",
+    "image": "trinity-glow-candle-stand-p24-1.jpg",
     "size": ""
   },
   {
     "name": "Sea boat candle",
     "price": 699,
     "old_price": 699,
-    "image": "images/sea-boat-candle-p24-2.jpg",
+    "image": "sea-boat-candle-p24-2.jpg",
     "size": ""
   },
   {
     "name": "Pearl Shell mini Candle",
     "price": 199,
     "old_price": 149,
-    "image": "images/pearl-shell-mini-candle-p25-1.jpg",
+    "image": "pearl-shell-mini-candle-p25-1.jpg",
     "size": ""
   }
 ];
